@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.timer {
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.settime {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.input {
+    width: 50px;
+    padding: 10px;
+}
+
+#time {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 20px 4px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.control {
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+}
